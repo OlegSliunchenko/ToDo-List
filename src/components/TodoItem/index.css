@@ -1,0 +1,68 @@
+.todo-container {
+    width: 670px;
+    height: 80px;
+    background-color: white;
+    margin: 5px auto;
+    display: flex;
+    align-items: stretch;
+    justify-content: space-between;
+
+}
+
+div.todo-left-side {
+    width: 150px;
+    background-color: red;
+    color: white;
+    font-family: RobotoRegular, sans-serif;
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 21px;
+    letter-spacing: 0;
+
+}
+div.todo-left-side-new {
+    background-color: #FA902E;
+
+}
+div.todo-left-side-in-progress {
+    background-color: #1E50CF;
+
+}
+div.todo-left-side-done {
+    background-color: #089A28;
+
+}
+div.todo-left-side-canceled {
+    background-color: #9A9A9A;
+
+}
+
+div.todo-center-side {
+    font-family: RobotoRegular, sans-serif;
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 21px;
+    letter-spacing: 0;
+
+}
+
+div.todo-right-side {
+    width: 130px;
+    font-family: RobotoRegular, sans-serif;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 16px;
+    letter-spacing: 0;
+    text-align: right;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+div.flex-center-container.todo-right-side {
+    align-items: flex-end;
+    padding: 10px 20px 10px 0;
+}
+
+div.flex-center-container.todo-right-side input:nth-child(2){
+    margin-left: 13px;
+}

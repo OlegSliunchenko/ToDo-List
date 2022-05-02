@@ -1,0 +1,21 @@
+.app-header {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 169px;
+}
+
+.app-header-title {
+    font-family: RobotoBold, sans-serif;
+    font-size: 40px;
+    font-weight: 700;
+    line-height: 47px;
+    letter-spacing: 0;
+    text-align: left;
+    padding: 0 21px;
+}
+
+.hidden-icon {
+    opacity: 0;
+    cursor: default;
+}
